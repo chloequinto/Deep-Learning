@@ -1,7 +1,21 @@
 # CS583 Deep Learning Assignments 
 
 
-## Repo Structure 
+#### Assignment 1: Shallow Neural Networks 
+In this assignment, we were tasked with building a shallow neural network on a wine dataset. After creating a basic model, we were to 
+1. Tune the weights and biases and plot parameter values vs accuracy 
+2. Plot percentage of training set vs accuracy
+3. Plot percentage of randomly selected features vs accuracy   
+
+####  Assignment 2: Evaluation and Error Analysis 
+In this assignment, we are tasked at applying a CNN for regression on a 4D array of rotated images. Our goal is to predict angles of rotated handwritten digits. 
+
+Since the assignment requires a specific matlab dataset, I wrote the assignment in matab. 
+
+### Assignment 3: Machine Translation 
+
+
+#### Repo Structure 
 ```bash 
 .
 ├── HW1
@@ -25,7 +39,14 @@
 │       ├── model_part2.hdf5
 │       └── model_part3.hdf5
 ├── HW2
+│   ├── README.md
+│   ├── diaryFile
+│   ├── main.m
+│   ├── main.m~
+│   └── reports
+│       ├── normalization.png
+│       ├── training.png
+│       └── worst5predictions.png
 ├── HW3
 └── README.md
-
 ```
