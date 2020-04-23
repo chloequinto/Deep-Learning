@@ -31,7 +31,7 @@ File Structure
 After testing the neural network, the accuracy came out to be: 0.9590
 
 The following are the top five worst predicted samples:
-![Worst Predicted](src/worst5predictions.png)
+![Worst Predicted](reports/worst5predictions.png)
 
 Note: if you would like to see the prediction error of these 5, uncomment line 110 in main.m
 
