@@ -105,6 +105,7 @@ function worstPredicted(net, xvalid, yvalid)
 
     [~, sortIDX] = sort(predictionErr(:), 'descend'); % sort errors in descending order 
     maxIDX = sortIDX(1:5); % get top 5 
+    display(maxIDX);
     
     fig2 = figure;
     for i = 1:numel(maxIDX)

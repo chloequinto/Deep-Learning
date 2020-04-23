@@ -33,6 +33,10 @@ After testing the neural network, the accuracy came out to be: 0.9590
 The following are the top five worst predicted samples:
 ![Worst Predicted](reports/worst5predictions.png)
 
-Note: if you would like to see the prediction error of these 5, uncomment line 110 in main.m
+Note: if you would like to see the prediction error of these 5, uncomment line 108 in main.m 
+
+```matlab
+disp(maxIDX);
+```
 
 The general consensus from my model is that the worst predicted numbers involve the ***0, 4 and the 5*** digit. My reasoning behind this is for 0, some hadnwritten digits appear to be more circular so it would be hard to distinguish the rotation. For 4, I think the reasoning may be because 4 often looks like 9 in the dataset. Additionally, 5 often looks like 4 as well so predicting rotation may often be harder in these digits. 
