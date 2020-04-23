@@ -12,8 +12,8 @@ In this assignment, we are tasked at applying a CNN for regression on a 4D array
 
 Since the assignment requires a specific matlab dataset, I wrote the assignment in matab. 
 
-### Assignment 3: Machine Translation 
-
+#### Assignment 3: Machine Translation 
+In this assignment, we are tasked to find and collect as many as possible foreign input sentences that Google Translate will make an error on
 
 #### Repo Structure 
 ```bash 
