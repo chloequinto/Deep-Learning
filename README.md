@@ -13,7 +13,9 @@ In this assignment, we are tasked at applying a CNN for regression on a 4D array
 Since the assignment requires a specific matlab dataset, I wrote the assignment in matab. 
 
 #### Assignment 3: Machine Translation 
-In this assignment, we are tasked to find and collect as many as possible foreign input sentences that Google Translate will make an error on
+In this assignment, we are tasked to find and collect as many as possible foreign input sentences that Google Translate will make an error on. 
+
+Ideas of improving the MT could be adding Residual LSTM and maybe including more colloquial corpus from online forums. 
 
 #### Repo Structure 
 ```bash 
@@ -40,6 +42,7 @@ In this assignment, we are tasked to find and collect as many as possible foreig
 │       └── model_part3.hdf5
 ├── HW2
 │   ├── README.md
+│   ├── cs583_cquinto_hw2.zip
 │   ├── diaryFile
 │   ├── main.m
 │   ├── main.m~
@@ -48,5 +51,6 @@ In this assignment, we are tasked to find and collect as many as possible foreig
 │       ├── training.png
 │       └── worst5predictions.png
 ├── HW3
+│   └── HW3_AdversarialMT.pdf
 └── README.md
 ```
